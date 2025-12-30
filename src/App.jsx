@@ -5,7 +5,7 @@ import onImg from './img/on.png';
 import offImg from './img/off.png';
 import './style.css';
 import lupa from './img/icons8-лупа-30.png';
-import {analytics} from './Firebase.js';
+import {analytics} from './Firebase.safe.js';
 import {logEvent} from 'firebase/analytics';
 import Footer from './Footer/Footer.jsx';
 import { useDebounce } from './Hook/HookDebounce.jsx'

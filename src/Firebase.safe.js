@@ -2,7 +2,7 @@ import {initializeApp} from "firebase/app";
 import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAWEBcev69dFq_NrWwlvpR7JZajtNArEx0",
+    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
     authDomain: "weather-analitica.firebaseapp.com",
     databaseURL: "https://weather-analitica-default-rtdb.europe-west1.firebasedatabase.app",
     projectId: "weather-analitica",
