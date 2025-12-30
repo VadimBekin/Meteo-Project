@@ -18,6 +18,9 @@ const Routes = createBrowserRouter(
             <Route path='eightdays' element={<PogodaEightDays/>} />
 
         </Route>
-    )
+    ),
+    {
+        basename: '/Meteo-Project',
+    }
 )
 export default Routes;
