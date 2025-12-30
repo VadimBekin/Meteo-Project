@@ -10,7 +10,6 @@ import {logEvent} from 'firebase/analytics';
 import Footer from './Footer/Footer.jsx';
 import { useDebounce } from './Hook/HookDebounce.jsx'
 
-
 export default function App() {
 
     const [user] = useState(true);

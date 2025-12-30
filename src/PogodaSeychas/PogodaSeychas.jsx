@@ -11,8 +11,6 @@ import def from "../img/sun (2).png";
 import './s.css';
 import s from './s.module.css';
 
-
-
 export default function PogodaSeychas() {
     const [weather, setWeather] = useState({});
     const [error, setError] = useState(null);
@@ -126,10 +124,6 @@ export default function PogodaSeychas() {
 
                 </div>
             )}
-
-
         </div>
     );
-
-
 }
