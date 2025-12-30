@@ -1,0 +1,25 @@
+.wrapper {
+    margin: 22px 22px 0 22px;
+    height: 80vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 150px 0;
+    font-size: 50px;
+
+}
+
+.container img {
+    height: 60px;
+    width: 60px;
+
+}
+
+:global(.app.dark-theme) .image {
+    filter: invert(1);
+}

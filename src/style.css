@@ -1,0 +1,96 @@
+.app {
+    width: 100%;
+    min-height: 100%;
+}
+
+.navbar-logo {
+    filter: invert(1);
+}
+.app.dark-theme .navbar-logo {
+    filter: none;
+}
+.lupa {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    cursor: pointer;
+    right: 15px;
+
+}
+
+.app.dark-theme {
+    background-color: #1e1e1e;
+    color: #ffffff;
+
+}
+.app.dark-theme .navbar {
+    background-color: #1e1e1e;
+}
+
+.app.dark-theme .navbar-item {
+    color: #ffffff;
+}
+.app.dark-theme .navbar-start .navbar-item:hover {
+    background-color: blue;
+}
+
+.app.dark-theme .input {
+    border: 1px solid #cae4e8;
+}
+
+.app.dark-theme .navbar-menu {
+    background-color: #1e1e1e;
+}
+
+
+.app.dark-theme .columns {
+    background-color: #1e1e1e;
+}
+
+.navbar-logo {
+    width: 140px;
+    height: 80px;
+}
+
+.autocomplete-list {
+    position: absolute;
+    top: 80%;
+    left: 12px;
+    right: 12px;
+    border: 1px solid #ccc;
+    background: #fff;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    z-index: 2000000;
+    color: black;
+    border-radius: 5px;
+}
+
+.autocomplete-list li {
+    padding: 5px 10px;
+}
+.autocomplete-list li:hover {
+    background: #eee;
+}
+
+
+@media (max-width: 1023px) {
+
+    .navbar-item {
+        width: 350px;
+    }
+    .lupa {
+        right: 10px;
+        bottom: 12px;
+    }
+    .app.dark-theme {
+        min-height: 120vh;
+    }
+}
+@media (max-width: 770px) {
+
+    .app.dark-theme {
+        min-height: 230vh;
+    }
+}

@@ -1,0 +1,10 @@
+.container {
+    height: 80vh;
+    margin: 22px 22px 0 22px;
+    padding-bottom: 50px;
+
+}
+.container .box {
+    width: 295px;
+    height: 140px;
+}
