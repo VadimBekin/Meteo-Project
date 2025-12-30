@@ -11,7 +11,7 @@ import PogodaEightDays from "./PogodaEightDays/PogodaEightDays.jsx";
 const Routes = createBrowserRouter(
     createRoutesFromElements(
         <Route path="/" element={<App/>} >
-            <Route path="/" index element={<PogodaGlavn />} />
+            <Route index element={<PogodaGlavn />} />
             <Route path='now' element={<PogodaSeychas/>} />
             <Route path='today' element={<PogodaSutki/>} />
             <Route path='fivedays' element={<PogodaFiveDays/>} />
