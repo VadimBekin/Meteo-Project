@@ -6,11 +6,11 @@ import PogodaGlavn from "./PogodaGlavn/GlavnayaPogoda.jsx"
 import PogodaFiveDays from "./PogodaFiveDays/PogodaFiveDays.jsx";
 import PogodaSutki from "./PogodaSutki/PogodaSutki.jsx";
 import PogodaEightDays from "./PogodaEightDays/PogodaEightDays.jsx";
-
+import ErrorPage from "./ErrorPage.jsx";
 
 const Routes = createBrowserRouter(
     createRoutesFromElements(
-        <Route path="/" element={<App/>} >
+        <Route path="/" element={<App/>}  errorElement={<ErrorPage />}>
             <Route index element={<PogodaGlavn />} />
             <Route path='now' element={<PogodaSeychas/>} />
             <Route path='today' element={<PogodaSutki/>} />
