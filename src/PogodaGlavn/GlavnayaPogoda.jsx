@@ -4,7 +4,7 @@ import {API_KEY} from "../ApiKey.jsx";
 import './s.css';
 import s from './s.module.css';
 import {logEvent} from "firebase/analytics";
-import {analytics} from "../Firebase.safe.js";
+import {analytics} from "../Firebase.js";
 
 
 export default function PogodaGlavn() {
