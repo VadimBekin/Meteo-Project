@@ -1,5 +1,5 @@
 import React from "react";
-import {createRoutesFromElements, createBrowserRouter, Route, Navigate} from "react-router-dom";
+import {createRoutesFromElements, createBrowserRouter, Route} from "react-router-dom";
 import App from './App.jsx'
 import PogodaSeychas from "./PogodaSeychas/PogodaSeychas.jsx";
 import PogodaGlavn from "./PogodaGlavn/GlavnayaPogoda.jsx"
