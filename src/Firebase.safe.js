@@ -6,11 +6,12 @@ const firebaseConfig = {
     authDomain: "weather-analitica.firebaseapp.com",
     databaseURL: "https://weather-analitica-default-rtdb.europe-west1.firebasedatabase.app",
     projectId: "weather-analitica",
-    storageBucket: "weather-analitica.firebasestorage.app",
+    storageBucket: "weather-analitica.appspot.app",
     messagingSenderId: "513011361748",
     appId: "1:513011361748:web:84b275668fa5b7fd86d841",
     measurementId: "G-N73N708W7E"
 };
+console.log(import.meta.env.VITE_FIREBASE_API_KEY);
 
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
