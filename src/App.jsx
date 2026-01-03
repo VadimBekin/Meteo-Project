@@ -58,9 +58,8 @@ export default function App() {
         if (!city) return;
             setSearchCity(city);
             logEvent(analytics, "search_query", { query: inputCity });
-        if (location.pathname === "/") {
             navigate("/now");
-        }
+
         setInputCity('');
         setSearchTravel([]);
         setActiveIndex(-1);
@@ -90,9 +89,8 @@ export default function App() {
         setSearchCity(city);
         setSearchTravel([]);
         setActiveIndex(-1);
-        if (location.pathname === "/") {
-            navigate("/now");
-        }
+        navigate("/now");
+
 
     }
 
